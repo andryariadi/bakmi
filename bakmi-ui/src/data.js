@@ -30,3 +30,36 @@ export const redeemMenu = [
     imgUrl: "/images/teh5.jpg",
   },
 ];
+
+export const privilageMenu = [
+  {
+    id: 1,
+    title: "Platinum Member 💎",
+    imgUrl: "/images/platinum.png",
+  },
+  {
+    id: 2,
+    title: "Gold Member ✨",
+    imgUrl: "/images/gold.png",
+  },
+  {
+    id: 3,
+    title: "Birthday Rewards 🥳",
+    imgUrl: "/images/hbd.png",
+  },
+  {
+    id: 4,
+    title: "Redeem Point 💰",
+    imgUrl: "/images/points.png",
+  },
+  {
+    id: 5,
+    title: "SignUp Rewards 💰",
+    imgUrl: "/images/sign.png",
+  },
+  {
+    id: 6,
+    title: "Benefit GMania 💰",
+    imgUrl: "/images/benefit.png",
+  },
+];
