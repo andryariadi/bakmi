@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Point() {
   return (
     <>
-      <div className="shadow-md py-5 px-5 md:px-10 flex flex-col gap-1">
+      <div className="shadow-md py-5 px-5 md:px-10 flex flex-col gap-1 h-fit">
         <div className="flex justify-between">
           <h1 className="font-bold text-lg md:text-2xl">Bakmi GM Points</h1>
           <p className="font-bold text-lg md:text-2xl">40</p>

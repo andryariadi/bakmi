@@ -63,3 +63,36 @@ export const privilageMenu = [
     imgUrl: "/images/benefit.png",
   },
 ];
+
+export const locationAddress = [
+  {
+    id: 1,
+    title: "Citra Garden 6",
+    address: "Gedung EC Lt. 2, Jl. Jenderal Sudirman No. 22, Kawasan SCBD Sudirman  ",
+    distance: "2.4 km",
+  },
+  {
+    id: 2,
+    title: "Emporium Mall",
+    address: "Jl. Melawai Raya No. 3, Jakarta Selatan",
+    distance: "6.2 km",
+  },
+  {
+    id: 3,
+    title: "Puri Indah Mall",
+    address: "Plaza Senayan Lantai Basement unit DB-14, Jl. Asia Afrika No.8, Jakarta Selatan",
+    distance: "6.4 km",
+  },
+  {
+    id: 4,
+    title: "Lippo Mall Puri",
+    address: "Gedung EC Lt. 2, Jl. Jenderal Sudirman No. 22, Kawasan SCBD Sudirman",
+    distance: "6.6 km",
+  },
+  {
+    id: 5,
+    title: "Terminal 3 Ultimate",
+    address: "Plaza Senayan Lantai Basement unit DB-14, Jl. Asia Afrika No.8, Jakarta Selatan",
+    distance: "7.7 km",
+  },
+];
