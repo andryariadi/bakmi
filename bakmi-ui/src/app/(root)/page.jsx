@@ -1,6 +1,7 @@
 import Level from "@/components/Level";
 import MenuLink from "@/components/MenuLink";
 import Point from "@/components/Point";
+import Redeem from "@/components/Redeem";
 import Refer from "@/components/Refer";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <Point />
         <MenuLink />
         <Refer />
+        <Redeem />
       </section>
     </>
   );
