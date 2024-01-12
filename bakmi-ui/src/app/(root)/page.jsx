@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero";
 import Level from "@/components/Level";
 import MenuLink from "@/components/MenuLink";
 import Outlet from "@/components/Outlet";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <section className="wrapper flex flex-col gap-8 md:gap-10">
+        <Hero />
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 md:gap-10">
           <Level />
           <Point />
