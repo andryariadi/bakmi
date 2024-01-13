@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { IoMailOutline } from "react-icons/io5";
+import { LuMailMinus } from "react-icons/lu";
 import { MdOutlineQrCode2 } from "react-icons/md";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 
@@ -13,7 +13,7 @@ export default function Navbar() {
           </div>
           <div className="flex gap-5 md:gap-10">
             <MdOutlineQrCode2 size={30} />
-            <IoMailOutline size={30} />
+            <LuMailMinus size={30} />
             <BiDotsVerticalRounded size={30} />
           </div>
         </div>
