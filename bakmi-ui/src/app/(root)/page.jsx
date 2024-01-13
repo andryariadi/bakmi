@@ -11,21 +11,13 @@ export default function Home() {
   return (
     <>
       <section className="wrapper flex flex-col gap-8 md:gap-10">
-        <div data-aos="zoom-in-up" data-aos-duration="1000">
-          <Hero />
-        </div>
+        <Hero />
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 md:gap-10">
-          <div data-aos="fade-up-right" data-aos-duration="1000" data-aos-once="true">
-            <Level />
-          </div>
-          <div data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
-            <Point />
-          </div>
+          <Level />
+          <Point />
         </div>
         <MenuLink />
-        <div data-aos="zoom-in-up" data-aos-duration="1000">
-          <Refer />
-        </div>
+        <Refer />
         <Redeem />
         <Privilage />
         <Outlet />
