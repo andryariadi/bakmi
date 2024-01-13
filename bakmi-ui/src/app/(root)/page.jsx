@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <section className="wrapper flex flex-col gap-8 md:gap-10">
         <Hero />
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 md:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5 md:gap-10" data-aos="fade-up">
           <Level />
           <Point />
         </div>
