@@ -6,7 +6,7 @@ import { BiDotsVerticalRounded } from "react-icons/bi";
 export default function Navbar() {
   return (
     <>
-      <nav className="w-full fixed z-10 shadow-md bg-white">
+      <nav className="w-full fixed z-20 shadow-md bg-white">
         <div className="wrapper flex justify-between items-center">
           <div>
             <Image src="/images/bakmi.png" width={200} height={200} alt="bakmi" />

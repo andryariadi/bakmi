@@ -17,15 +17,15 @@ export default function Redeem() {
     <>
       <div className="flex flex-col gap-5">
         <div className="flex justify-between items-center">
-          <div className="flex flex-col gap-[2px]">
+          <div className="flex flex-col gap-[2px]" data-aos="fade-up-right" data-aos-duration="1000" data-aos-once="true">
             <h1 className="text-xl md:text-2xl font-bold">Redeem Your Rewards</h1>
             <p className="text-xs md:text-base">Earn more to get your rewards</p>
           </div>
-          <div className="font-bold text-sm md:text-xl text-amber-500 uppercase">
+          <div className="font-bold text-sm md:text-xl text-amber-500 uppercase" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
             <Link href="/">See All</Link>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <Swiper
             slidesPerView={1}
             spaceBetween={10}
