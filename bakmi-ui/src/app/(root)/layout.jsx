@@ -2,19 +2,21 @@
 
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import { useEffect } from "react";
 // ..
 AOS.init();
 
 export default function RootLayout({ children }) {
   useEffect(() => {
-    // Pastikan bahwa AOS.init() dijalankan di sisi klien
-    import("aos").then((aos) => {
-      aos.init();
-    });
+    // Periksa apakah berjalan di lingkungan peramban
+    if (typeof window !== "undefined") {
+      import("aos").then((aos) => {
+        aos.init();
+      });
+    }
   }, []);
 
   return (
